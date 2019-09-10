@@ -53,7 +53,7 @@ steps:
 
 - task: WhiteSource Bolt@19
   displayName: 'Run WhiteSource Bolt'
-t
+
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
